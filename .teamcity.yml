@@ -4,6 +4,6 @@ jobs:
     steps:
       - type: script
         name: test
-        script-content: echo 'ciao mondo'
+        script-content: echo 'hello world'
     runs-on: self-hosted
     enable-dependency-cache: true
